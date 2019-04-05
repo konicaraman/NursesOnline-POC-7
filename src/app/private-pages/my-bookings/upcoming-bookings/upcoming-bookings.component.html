@@ -1,0 +1,14 @@
+
+<!--upcoming bookings display-->
+
+<div class="bookings">
+    <div *ngIf="upcomingBookings">
+      <div *ngFor="let bookings of upcomingBookings" class="booking-div">
+        <p class="light">{{bookings.Date}}<span class="status">{{bookings.Status}}</span></p>
+        <p class="heavy">{{bookings.Nurse}}</p>
+        <p class="light">{{bookings.Address}}</p>
+      </div>
+    </div>
+  
+  </div>
+  

@@ -1,0 +1,125 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "fullName": "konica raman",
+      "firstName": "konica",
+      "lastName": "raman",
+      "emailId": "konica@jungleworks.com",
+      "phoneNo": "9467782951",
+      "address": "3114",
+      "medHistory": "",
+      "password": "123",
+      "confirmPassword": "123",
+      "id": 1
+    },
+    {
+      "fullName": "gagan kaur",
+      "firstName": "gagan",
+      "lastName": "kaur",
+      "emailId": "gagan@gmail.com",
+      "phoneNo": "335678282",
+      "address": "#4228",
+      "medHistory": "",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 2
+    }
+  ],
+  "bookings": [
+    {
+      "Date": "April 26 2019, 07:00AM",
+      "Nurse": "Rihana",
+      "Address": "#18, Sangam Vihar, Sector-H, LDA Colony, Knp Road, Lucknow",
+      "Status": "Payment Pending",
+      "upcoming": true,
+      "past": false
+    },
+    {
+      "Date": "April 2, 2019, 10:00AM",
+      "Nurse": "Taylor Swift",
+      "Address": "#3113, Sector 21, Chandigarh",
+      "Status": "Finished",
+      "past": true,
+      "upcoming": false
+    },
+    {
+      "Date": " March 15, 2019, 09:00AM",
+      "Nurse": "Sandals",
+      "Address": " CDCL Building, Plot No. 5, Madhya Marg, 28B, Sector 28B, Chandigarh, 160019",
+      "Status": "Finished",
+      "past": true,
+      "upcoming": false
+    },
+    {
+      "Date": "May 24, 2019, 10:00AM",
+      "Nurse": "Connor",
+      "Address": "#D-2, DCRUST Murthal, Sonipat",
+      "Status": "Confirmation Pending",
+      "upcoming": true,
+      "past": false
+    },
+    {
+      "Date": "September 05 2019, 06:00AM",
+      "Nurse": "Adele",
+      "Address": "#4667, Sector-H, Model Town, Rohtak",
+      "Status": "Payment Pending",
+      "upcoming": true,
+      "past": false
+    },
+    {
+      "Date": "January 29 2019, 11:00AM",
+      "Nurse": "Beyonce",
+      "Address": "Rohini Sector 21, New-Delhi",
+      "Status": "Finished",
+      "past": true,
+      "upcoming": false
+    },
+    {
+      "Date": " November 15 2019, 08:00AM",
+      "Nurse": "Katty Perry",
+      "Address": "House no. 8999, Vasant Kunj, Bangalore",
+      "Status": "Finished",
+      "past": true,
+      "upcoming": false
+    },
+    {
+      "Date": "May 29, 2019, 10:00AM",
+      "Nurse": "Jessie ",
+      "Address": "#5678, sector 19, Panipat",
+      "Status": "Confirmation Pending",
+      "upcoming": true,
+      "past": false
+    }
+  ],
+  "FAQ": [
+    {
+      "question": "What do we do?",
+      "answer": "We provide home nursing service. Our nurses are highly qualified."
+    },
+    {
+      "question": "When to expect our nurses to reach?",
+      "answer": "We provide 24x7 service and we try"
+    },
+    {
+      "question": "I took a CE test and my certificate will not print. What should I do?",
+      "answer": "After successfully taking the test with a score of 75% or greater, your course will automatically move to the “My transcripts” page. To view your transcript, click on the button next to the title to view your certificate and print it. You can email, print, or view the certificate as a PDF."
+    }
+  ]
+}

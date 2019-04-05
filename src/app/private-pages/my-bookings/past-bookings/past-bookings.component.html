@@ -1,0 +1,11 @@
+<!--past bookings will be displayed-->
+<div class="bookings">
+  <div *ngIf="pastBookings">
+    <div *ngFor="let bookings of pastBookings" class="booking-div">
+      <p class="light">{{bookings.Date}}<span class="status">{{bookings.Status}}</span></p>
+      <p class="heavy">{{bookings.Nurse}}</p>
+      <p class="light">{{bookings.Address}}</p>
+    </div>
+  </div>
+
+</div>
